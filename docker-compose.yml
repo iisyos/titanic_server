@@ -3,7 +3,7 @@ version: '3.3'
 services:
   python:
     container_name: python
-    build: ./docker/python/
+    build: ./docker/
     ports:
       - 5000:5000
     tty: true
